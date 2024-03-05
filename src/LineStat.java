@@ -102,7 +102,7 @@ public class LineStat {
         Map<Integer, Integer> sizes = new HashMap<>(MAX_LINES);
         for (int i = 0; i < parents.size(); i++) {
             var key = get(i);
-            elementsByGroup.computeIfAbsent(key, ignore -> new ArrayList<>()).add(i);
+            elementsByGroup.computeIfAbsent(key, _ -> new ArrayList<>()).add(i);
             sizes.put(key, sizes.getOrDefault(key, 0) + 1);
         }
         return sizes.entrySet()
