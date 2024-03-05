@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="UnoSoft:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UnoSoft_jar</output-path>
+    <root id="archive" name="UnoSoft.jar">
+      <element id="module-output" name="UnoSoft" />
+    </root>
+  </artifact>
+</component>

@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="PeacockTeamScreening:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/PeacockTeamScreening_jar</output-path>
-    <root id="archive" name="PeacockTeamScreening.jar">
-      <element id="module-output" name="PeacockTeamScreening" />
-    </root>
-  </artifact>
-</component>
